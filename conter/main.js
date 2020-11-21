@@ -6,15 +6,18 @@ var createElement = require('virtual-dom/create-element');
 function render(count) {
   // VNodeを返す
   // h('タグ.クラス名', 'プロパティ', '中身') →1要素
-  return h('div', {
-    style: {
-      textAlign: 'center',
-      lineHeight: (100 + count) + 'px',
-      border: '1px solid red',
-      width: (100 + count) + 'px',
-      height: (100 + count) + 'px'
-    }
-  }, [String(count)]);
+  return h('div', [
+    h('p', String(count)),
+    h('div', {
+      style: {
+        textAlign: 'center',
+        lineHeight: (100 + count) + 'px',
+        border: '1px solid red',
+        width: (100 + count) + 'px',
+        height: (100 + count) + 'px'
+      }
+    }, [String(count)]),
+  ]);
 }
 
 
