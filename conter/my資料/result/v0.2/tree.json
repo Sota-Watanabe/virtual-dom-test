@@ -1,0 +1,39 @@
+{
+  "tagName": "DIV",
+  "properties": {},
+  "children": [
+    {
+      "tagName": "P",
+      "properties": {},
+      "children": [{ "text": "count=6" }],
+      "namespace": null,
+      "count": 1,
+      "hasWidgets": false,
+      "hasThunks": false,
+      "descendantHooks": false
+    },
+    {
+      "tagName": "DIV",
+      "properties": {
+        "style": {
+          "textAlign": "center",
+          "lineHeight": "106px",
+          "border": "1px solid red",
+          "width": "106px",
+          "height": "106px"
+        }
+      },
+      "children": [{ "text": "6" }],
+      "namespace": null,
+      "count": 1,
+      "hasWidgets": false,
+      "hasThunks": false,
+      "descendantHooks": false
+    }
+  ],
+  "namespace": null,
+  "count": 4,
+  "hasWidgets": false,
+  "hasThunks": false,
+  "descendantHooks": false
+}

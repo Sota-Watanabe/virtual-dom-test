@@ -1,0 +1,79 @@
+{
+  "2": {
+    "type": 1,
+    "vNode": { "text": "count=6" },
+    "patch": { "text": "count=7" }
+  },
+  "3": {
+    "type": 4,
+    "vNode": {
+      "tagName": "DIV",
+      "properties": {
+        "style": {
+          "textAlign": "center",
+          "lineHeight": "106px",
+          "border": "1px solid red",
+          "width": "106px",
+          "height": "106px"
+        }
+      },
+      "children": [{ "text": "6" }],
+      "namespace": null,
+      "count": 1,
+      "hasWidgets": false,
+      "hasThunks": false,
+      "descendantHooks": false
+    },
+    "patch": {
+      "style": {
+        "lineHeight": "107px",
+        "width": "107px",
+        "height": "107px"
+      }
+    }
+  },
+  "4": {
+    "type": 1,
+    "vNode": { "text": "6" },
+    "patch": { "text": "7" }
+  },
+  "a": {
+    "tagName": "DIV",
+    "properties": {},
+    "children": [
+      {
+        "tagName": "P",
+        "properties": {},
+        "children": [{ "text": "count=6" }],
+        "namespace": null,
+        "count": 1,
+        "hasWidgets": false,
+        "hasThunks": false,
+        "descendantHooks": false
+      },
+      {
+        "tagName": "DIV",
+        "properties": {
+          "style": {
+            "textAlign": "center",
+            "lineHeight": "106px",
+            "border": "1px solid red",
+            "width": "106px",
+            "height": "106px"
+          }
+        },
+        "children": [{ "text": "6" }],
+        "namespace": null,
+        "count": 1,
+        "hasWidgets": false,
+        "hasThunks": false,
+        "descendantHooks": false
+      }
+    ],
+    "namespace": null,
+    "count": 4,
+    "hasWidgets": false,
+    "hasThunks": false,
+    "descendantHooks": false
+  }
+}
