@@ -1,6 +1,6 @@
 ```json
 {
-  "0": { // 差分がある VNode その1
+  "0": { // 差分がある VNode 番号
     "type": 4, // 4->PROPS要素の変更
     "vNode": {
       "tagName": "DIV",
@@ -28,7 +28,7 @@
       }
     }
   },
-  "1": { // 差分がある VNode その2
+  "1": { // 差分がある VNode 番号
     "type": 1, // 1 -> VTEXT要素の変更
     "vNode": { "text": "0" },
     "patch": { "text": "1" }　// 差分の詳細
