@@ -7,7 +7,7 @@ function render(count) {
   // VNodeを返す
   // h('タグ.クラス名', 'プロパティ', '中身') →1要素
   return h('div', [
-    h('p', String(count)),
+    h('p', 'count=' + String(count)),
     h('div', {
       style: {
         textAlign: 'center',
