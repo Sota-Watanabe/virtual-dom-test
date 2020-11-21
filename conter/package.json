@@ -1,0 +1,14 @@
+{
+  "name": "conter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conter.js",
+  "scripts": {
+    "build": "browserify main.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "virtual-dom": "^2.1.1"
+  }
+}

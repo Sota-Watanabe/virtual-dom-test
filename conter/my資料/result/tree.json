@@ -1,0 +1,18 @@
+{
+  "tagName": "DIV",
+  "properties": {
+    "style": {
+      "textAlign": "center",
+      "lineHeight": "100px",
+      "border": "1px solid red",
+      "width": "100px",
+      "height": "100px"
+    }
+  },
+  "children": [{ "text": "0" }],
+  "namespace": null,
+  "count": 1,
+  "hasWidgets": false,
+  "hasThunks": false,
+  "descendantHooks": false
+}
