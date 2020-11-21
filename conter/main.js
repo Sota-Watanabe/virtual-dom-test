@@ -29,9 +29,9 @@ document.body.appendChild(rootNode);
     var newTree = render(count); // countに合わせたVNode作成
     var patches = diff(tree, newTree); // 直前のVNodeと比較
 
-    // console.log('tree', JSON.stringify(tree)) // 追加
-    // console.log('newTree', JSON.stringify(newTree)) // 追加
-    // console.log('patches', JSON.stringify(patches)) // 追加
+    console.log('tree', JSON.stringify(tree)) // 追加
+    console.log('newTree', JSON.stringify(newTree)) // 追加
+    console.log('patches', JSON.stringify(patches)) // 追加
 
     patch(rootNode, patches); //実DOMを更新
     // rootNode = patch(rootNode, patches);
